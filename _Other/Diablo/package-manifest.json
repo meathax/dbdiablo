@@ -7,7 +7,7 @@
   "private_data_excluded": true,
   "deployment_manifest": {
     "path": "deployment.json",
-    "sha256": "0ca13bae8851ff2e08d695a702d74cd5b892010ca28c8a4a0fec37b49e22d48d"
+    "sha256": "428967f852dc4c65afcc50409b62bf963ff9e69b4ca447f798d7e10c3eb9d47a"
   },
   "files": [
     {
@@ -37,8 +37,8 @@
     {
       "role": "deployment-manifest",
       "path": "deployment.json",
-      "bytes": 37705,
-      "sha256": "0ca13bae8851ff2e08d695a702d74cd5b892010ca28c8a4a0fec37b49e22d48d"
+      "bytes": 37873,
+      "sha256": "428967f852dc4c65afcc50409b62bf963ff9e69b4ca447f798d7e10c3eb9d47a"
     },
     {
       "role": "release-document",
@@ -1509,6 +1509,12 @@
       "path": "assets/ui_art/dvl_lrpopup.clx",
       "bytes": 96214,
       "sha256": "da30186d61f08d450ebe63bbf8bad6ecd683bbb1e90551f9bedc5ed5b2bd1e55"
+    },
+    {
+      "role": "asset",
+      "path": "assets/ui_art/hellfire.pal",
+      "bytes": 768,
+      "sha256": "3b6a6806f100a85a5328e3b9dc196ba3efb29553d67eb9a9de14969ec6e69478"
     },
     {
       "role": "asset",

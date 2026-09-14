@@ -35,8 +35,8 @@
   ],
   "runtime_assets": {
     "path": "assets",
-    "bytes": 6805146,
-    "sha256": "a687f2fd5ca725b7815adb8db1b6cdfa2d26869dfee450a39c0122228877acc0",
+    "bytes": 6805914,
+    "sha256": "ba6a3c9c0539a9af41d7cb1124c02802fa8acc7ff77ac4246ad52691f2fa5d16",
     "files": [
       {
         "path": "ASSETS_VERSION",
@@ -1067,6 +1067,11 @@
         "path": "ui_art/dvl_lrpopup.clx",
         "bytes": 96214,
         "sha256": "da30186d61f08d450ebe63bbf8bad6ecd683bbb1e90551f9bedc5ed5b2bd1e55"
+      },
+      {
+        "path": "ui_art/hellfire.pal",
+        "bytes": 768,
+        "sha256": "3b6a6806f100a85a5328e3b9dc196ba3efb29553d67eb9a9de14969ec6e69478"
       },
       {
         "path": "ui_art/mainmenuw.clx",

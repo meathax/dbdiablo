@@ -21,7 +21,7 @@ The installed runtime consists of:
 
 - `/media/fat/Diablo`
 - `/media/fat/_Other/Diablo.rbf`
-- `/media/fat/_Other/Diablo Hellfire.rbf`
+- `/media/fat/_Other/Hellfire.rbf`
 - `/media/fat/_Other/Diablo/`
 
 Launch Diablo or Diablo Hellfire from the MiSTer `_Other` menu. Configuration and saves are kept in `/media/fat/saves/Diablo/`.
