@@ -205,30 +205,34 @@ def _managed_package_identity(root: Path) -> dict[str, Any] | None:
     scan takes tens of seconds on a cold MiSTer SD filesystem. Trust the
     deployment receipt for assets; check manifest hashes and runtime entrypoints
     here. Full file/asset auditing remains available with
-    DIABLO_MISTER_VERIFY_FULL=1 and is always used for unmanaged packages.
+    DIABLO_MISTER_VERIFY_FULL=1. Direct Downloader installs at _Other/Diablo
+    use their package manifest rather than an unrelated transactional receipt.
     """
     try:
         if os.environ.get("DIABLO_MISTER_VERIFY_FULL") == "1":
             return None
-        state = _read_json(MISTER_INSTALL_STATE, "MiSTer install state")
         root = root.resolve()
+        legacy_root = (MISTER_INSTALL_STATE.parent / "_Other" / "Diablo").resolve()
+        direct_install = root == legacy_root
+        state = {} if direct_install else _read_json(MISTER_INSTALL_STATE, "MiSTer install state")
         release = state.get("active_release")
         expected_root = (MISTER_INSTALL_STATE.parent / release).resolve() if isinstance(release, str) else None
         legacy_root = (MISTER_INSTALL_STATE.parent / "_Other" / "Diablo").resolve()
-        if (state.get("status") != "pass" or state.get("board_profile") != "de10-nano-mister"
-                or root not in {expected_root, legacy_root}):
+        if not direct_install and (state.get("status") != "pass" or state.get("board_profile") != "de10-nano-mister"
+                                   or root != expected_root):
             return None
 
         package_path = _real_file(root, "package-manifest.json", "package manifest")
         package = _read_json(package_path, "package manifest")
         if (package.get("schema") != PACKAGE_SCHEMA or package.get("status") != "pass"
+                or package.get("board_profile") != "de10-nano-mister"
                 or package.get("private_data_excluded") is not True):
             return None
         candidate_id = str(package.get("candidate_id", ""))
         source_id = str(package.get("source_id", ""))
         if (not HEX64.fullmatch(candidate_id) or not HEX64.fullmatch(source_id)
-                or state.get("active_candidate_id") != candidate_id
-                or state.get("active_package_manifest_sha256") != sha256_file(package_path)):
+                or (not direct_install and (state.get("active_candidate_id") != candidate_id
+                    or state.get("active_package_manifest_sha256") != sha256_file(package_path)))):
             return None
 
         deployment_record = package.get("deployment_manifest")
