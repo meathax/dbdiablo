@@ -1,13 +1,13 @@
 {
   "schema": "diablo-package-manifest-v2",
   "status": "pass",
-  "candidate_id": "7cd7290820843e9a19fe026ce974a65b88e36504cfb1079c18fe02bda971c9ef",
-  "source_id": "491b3353c80816c4cc61c2e16d8b6b01d795a12d66c95b2909614a988bbf2a5d",
+  "candidate_id": "0c3589cc780fae407f31e722ab4017cc051a47b00c7ee836d0fc5ec745b5caf9",
+  "source_id": "c144ee5e409a240c688151a260b9b92eb1cdfe170c1b420635e2c4802ba1d21c",
   "board_profile": "de10-nano-mister",
   "private_data_excluded": true,
   "deployment_manifest": {
     "path": "deployment.json",
-    "sha256": "60c1febfe2b0f8e8356984fefe94d31bcaf06f2bc36b2b71153ca87d99fc6dc6"
+    "sha256": "77a450969f9bb59da76d605f47df0d1bf8017dbfd52b5673a80d15cb2eb0444b"
   },
   "files": [
     {
@@ -31,14 +31,14 @@
     {
       "role": "runtime",
       "path": "diablo_launcher.py",
-      "bytes": 36831,
-      "sha256": "f33f9463d53a22ed71e83eca35afcd16ee8d568e3ad983c0bdbdab7d1606d039"
+      "bytes": 36435,
+      "sha256": "b649b78ee41e6db105e93a4cbb36db6ceb82c1fee256ecb0d68af937221a5da0"
     },
     {
       "role": "deployment-manifest",
       "path": "deployment.json",
       "bytes": 37705,
-      "sha256": "60c1febfe2b0f8e8356984fefe94d31bcaf06f2bc36b2b71153ca87d99fc6dc6"
+      "sha256": "77a450969f9bb59da76d605f47df0d1bf8017dbfd52b5673a80d15cb2eb0444b"
     },
     {
       "role": "release-document",
