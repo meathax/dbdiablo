@@ -204,20 +204,25 @@ def _managed_package_identity(root: Path) -> dict[str, Any] | None:
     every RBF selection delays the first video. Even a metadata-only recursive
     scan takes tens of seconds on a cold MiSTer SD filesystem. Trust the
     deployment receipt for assets; check manifest hashes and runtime entrypoints
-    here. Full file/asset auditing remains available with
-    DIABLO_MISTER_VERIFY_FULL=1 and is always used for unmanaged packages.
+    here. Downloader installs the same verified package directly at the legacy
+    `_Other/Diablo` path, where no transactional state file exists; it uses the
+    same bounded manifest-and-entrypoint validation. Full file/asset auditing
+    remains available with DIABLO_MISTER_VERIFY_FULL=1.
     """
     try:
         if os.environ.get("DIABLO_MISTER_VERIFY_FULL") == "1":
             return None
-        state = _read_json(MISTER_INSTALL_STATE, "MiSTer install state")
         root = root.resolve()
-        release = state.get("active_release")
-        expected_root = (MISTER_INSTALL_STATE.parent / release).resolve() if isinstance(release, str) else None
         legacy_root = (MISTER_INSTALL_STATE.parent / "_Other" / "Diablo").resolve()
-        if (state.get("status") != "pass" or state.get("board_profile") != "de10-nano-mister"
-                or root not in {expected_root, legacy_root}):
-            return None
+        legacy_layout = root == legacy_root
+        state: dict[str, Any] | None = None
+        if not legacy_layout:
+            state = _read_json(MISTER_INSTALL_STATE, "MiSTer install state")
+            release = state.get("active_release")
+            expected_root = (MISTER_INSTALL_STATE.parent / release).resolve() if isinstance(release, str) else None
+            if (state.get("status") != "pass" or state.get("board_profile") != "de10-nano-mister"
+                    or root != expected_root):
+                return None
 
         package_path = _real_file(root, "package-manifest.json", "package manifest")
         package = _read_json(package_path, "package manifest")
@@ -227,8 +232,9 @@ def _managed_package_identity(root: Path) -> dict[str, Any] | None:
         candidate_id = str(package.get("candidate_id", ""))
         source_id = str(package.get("source_id", ""))
         if (not HEX64.fullmatch(candidate_id) or not HEX64.fullmatch(source_id)
-                or state.get("active_candidate_id") != candidate_id
-                or state.get("active_package_manifest_sha256") != sha256_file(package_path)):
+                or (not legacy_layout and (state is None
+                                           or state.get("active_candidate_id") != candidate_id
+                                           or state.get("active_package_manifest_sha256") != sha256_file(package_path)))):
             return None
 
         deployment_record = package.get("deployment_manifest")
