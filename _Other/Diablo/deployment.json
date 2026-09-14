@@ -1,0 +1,1088 @@
+{
+  "schema": "diablo-deployment-manifest-v2",
+  "status": "pass",
+  "candidate_id": "0c3589cc780fae407f31e722ab4017cc051a47b00c7ee836d0fc5ec745b5caf9",
+  "source_id": "c144ee5e409a240c688151a260b9b92eb1cdfe170c1b420635e2c4802ba1d21c",
+  "abi_digest": "aefc42fc0a1969800ef9ed8cbddb5d76155b7433ecaa1b6dc1a04a507e1737cd",
+  "board_profile": "de10-nano-mister",
+  "private_data_excluded": true,
+  "created_utc": "2026-09-14T03:49:04+00:00",
+  "artifacts": [
+    {
+      "role": "abi",
+      "path": "transport_abi.hex",
+      "bytes": 12288,
+      "sha256": "aefc42fc0a1969800ef9ed8cbddb5d76155b7433ecaa1b6dc1a04a507e1737cd"
+    },
+    {
+      "role": "engine",
+      "path": "devilutionx",
+      "bytes": 7365808,
+      "sha256": "727ac1927713b73479fc7f20bc832273b0346726e2c8f03d6d8cfc124feb3743"
+    },
+    {
+      "role": "launcher",
+      "path": "diablo_launcher.py",
+      "bytes": 36435,
+      "sha256": "b649b78ee41e6db105e93a4cbb36db6ceb82c1fee256ecb0d68af937221a5da0"
+    },
+    {
+      "role": "rbf",
+      "path": "Diablo.rbf",
+      "bytes": 2755740,
+      "sha256": "75900db7251bbb336ae19d6206495ee2ff3776aa6e3864471fe3260e2e87114c"
+    }
+  ],
+  "runtime_assets": {
+    "path": "assets",
+    "bytes": 6805146,
+    "sha256": "a687f2fd5ca725b7815adb8db1b6cdfa2d26869dfee450a39c0122228877acc0",
+    "files": [
+      {
+        "path": "ASSETS_VERSION",
+        "bytes": 2,
+        "sha256": "4355a46b19d348dc2f57c046f8ef63d4538ebb936000f3c9ee954a27460dd865"
+      },
+      {
+        "path": "arena/church.dun",
+        "bytes": 11428,
+        "sha256": "285fdd45b857c49fc4a79aea6ed5f82e8d953bb6c3f545ae66281d0428198a12"
+      },
+      {
+        "path": "arena/circle_of_death.dun",
+        "bytes": 10952,
+        "sha256": "f2b0d05b607ed27ba4ca2af1dc33d14c49ab5246330058761ff737fd123fbc59"
+      },
+      {
+        "path": "arena/hell.dun",
+        "bytes": 16528,
+        "sha256": "0e4359f06abc8228152eb03ffce267379cc46cc04951f46861a84a848502635e"
+      },
+      {
+        "path": "data/boxleftend.clx",
+        "bytes": 205,
+        "sha256": "f1f2d5f3ff577e2095e2d92ef07a5da8b13212c8ac859be68fae0ad7b1cf29b9"
+      },
+      {
+        "path": "data/boxmiddle.clx",
+        "bytes": 5076,
+        "sha256": "05a3b23e049403f1e984ba514b6d95ac6b474464b34145beb18df75b1c10833a"
+      },
+      {
+        "path": "data/boxrightend.clx",
+        "bytes": 197,
+        "sha256": "8bfb5e0d4d2e9904825f9164a89e82a31bdca1200921f588362ea47dda41c369"
+      },
+      {
+        "path": "data/charbg.clx",
+        "bytes": 100328,
+        "sha256": "6acc664e91075f05587b9f032977d16932783014844e0c785e43678e18440809"
+      },
+      {
+        "path": "data/dirtybuc.clx",
+        "bytes": 1244,
+        "sha256": "aa2d1756f2904d9dba4ac04624688432af79022af0938474513621ec5c59f142"
+      },
+      {
+        "path": "data/dirtybucp.clx",
+        "bytes": 1122,
+        "sha256": "5659b48f8931a8490713aaf05190826ebc5bba912c792658c1a65ac5821539d4"
+      },
+      {
+        "path": "data/health.clx",
+        "bytes": 2024,
+        "sha256": "ec909f8c135a3b5ff2418de3751fc0663d8833c19795f3356eb72c0c24320b95"
+      },
+      {
+        "path": "data/healthbox.clx",
+        "bytes": 1253,
+        "sha256": "57469e2c770c3ed4a05913208f8a8e5f438f7dc6af491fe4fa05906583b65d46"
+      },
+      {
+        "path": "data/hintbox.clx",
+        "bytes": 407,
+        "sha256": "61f03b259fea079190cc00854d02d6a1794e06b023db0f04082a26122df1534f"
+      },
+      {
+        "path": "data/hintboxbackground.clx",
+        "bytes": 1326,
+        "sha256": "7f89a864a7144bd5a522c884b2462ce86a5499c24067137952fb4477d454946c"
+      },
+      {
+        "path": "data/hinticons.clx",
+        "bytes": 2722,
+        "sha256": "d5a03602a7f0f3d14c0a6ba0e870ebf638743879fbbe21a77919e381457da7bd"
+      },
+      {
+        "path": "data/inv/objcurs-widths.txt",
+        "bytes": 716,
+        "sha256": "33c406e009e35fedbb697e80c0c1a1419e74001d2d08e88eb9a038641ed90212"
+      },
+      {
+        "path": "data/monstertags.clx",
+        "bytes": 484,
+        "sha256": "f2710387fafb5e8493efe1cc635dac7014310ee1d72b2f7cb062cfb4778e756d"
+      },
+      {
+        "path": "data/panel8buc.clx",
+        "bytes": 1951,
+        "sha256": "95e36de6e01b22d47585b51f6093819738ed143f7e2f829b677c513f3b84ac07"
+      },
+      {
+        "path": "data/panel8bucp.clx",
+        "bytes": 4601,
+        "sha256": "65e18f40b62ab1b1dca2bff0c987f10477a47df264380f686d8c49317e4e3958"
+      },
+      {
+        "path": "data/repairAllBtn.clx",
+        "bytes": 1898,
+        "sha256": "10d0547974508c878fd69d39e040f48dc07cee0326a4493027bf323cb9c009c5"
+      },
+      {
+        "path": "data/repairSingleBtn.clx",
+        "bytes": 1074,
+        "sha256": "030b76c7fd680c52d43d9fbecaae7eba17c7438915c1a36d107059ece02c1f26"
+      },
+      {
+        "path": "data/resistance.clx",
+        "bytes": 1879,
+        "sha256": "19cdb3eee72424566af774238ab346ddcd341cf20adae9a9163ad795bada48ba"
+      },
+      {
+        "path": "data/stash.clx",
+        "bytes": 67390,
+        "sha256": "436023ea51595376a425d4a6dc309dd7edc83ee3decd170bcc4d5f57c2b9e399"
+      },
+      {
+        "path": "data/stashnavbtns.clx",
+        "bytes": 1574,
+        "sha256": "df39c7a252e53994d03dddc98387b6deed48caf086c98378327af5da353b148b"
+      },
+      {
+        "path": "data/store.clx",
+        "bytes": 71513,
+        "sha256": "89ea5b94312f5aae67c4f05837fa73dd2da5ce15752c9bcc7a4f9545314c53a6"
+      },
+      {
+        "path": "data/tabBtnUp.clx",
+        "bytes": 2622,
+        "sha256": "dd588130583baf20fc171ecdab61307fe271d6c499ba474891d53e69b44b020c"
+      },
+      {
+        "path": "data/talkbutton.clx",
+        "bytes": 1484,
+        "sha256": "7038468a0564fa9f72d28ad60ecddccd8660daf183b652120bfc79badae64e6d"
+      },
+      {
+        "path": "data/xpbar.clx",
+        "bytes": 1531,
+        "sha256": "ece8c985b165c9174f8606eb57071d5a5b3914889d272892715caf4892727bab"
+      },
+      {
+        "path": "fonts/12-00.clx",
+        "bytes": 17383,
+        "sha256": "4903e421b6c0bd50d859fb0cd7b3ae6574c004a3aa4b7e972f7a39807d7a1d1f"
+      },
+      {
+        "path": "fonts/12-01.clx",
+        "bytes": 27309,
+        "sha256": "b8899084ef35279940327c04edd4d8c6119c32e84f2aced28eeab80f20bf41f7"
+      },
+      {
+        "path": "fonts/12-02.clx",
+        "bytes": 10113,
+        "sha256": "8c8bf6a65be55fe8b374ebeda64f931c4a60de71dafa835adfdb6ab396de8503"
+      },
+      {
+        "path": "fonts/12-03.clx",
+        "bytes": 14439,
+        "sha256": "e91fd10989966d0953011973da909f9f9cb2da79dcd4fcf6212b8ec4c2bd56cd"
+      },
+      {
+        "path": "fonts/12-04.clx",
+        "bytes": 26927,
+        "sha256": "a3809877554525a09a6f8cd82b8b524b5a3e55794fda7486ff9fbea5c9e3dd52"
+      },
+      {
+        "path": "fonts/12-05.clx",
+        "bytes": 4304,
+        "sha256": "212ac1f734609b2633e1a8239d860e5cde129e9507d0df78f1ceb08d5bd0f6eb"
+      },
+      {
+        "path": "fonts/12-1f4.clx",
+        "bytes": 25512,
+        "sha256": "6c78362e91c009fd4424718ac1176de0d360ce3ebcfa17cd40d677dbea0e8f19"
+      },
+      {
+        "path": "fonts/12-1f6.clx",
+        "bytes": 19848,
+        "sha256": "b8b300a5297917adf39e4374723d8c1f81abb6cdf78543b58bdc4ddcd1f1abf8"
+      },
+      {
+        "path": "fonts/12-1f9.clx",
+        "bytes": 23370,
+        "sha256": "867f55f6db8bc8f400a99322fd215ffeaedc07a991ac8ac2a62dc80ebc62e56b"
+      },
+      {
+        "path": "fonts/12-20.clx",
+        "bytes": 15135,
+        "sha256": "0a3bff1afad498f2ece4e995d48924c56d68a58b27d1b6c7a85b065009ddef89"
+      },
+      {
+        "path": "fonts/12-26.clx",
+        "bytes": 10480,
+        "sha256": "91aa932c36ea0ea70ef4698a9244885aae825bff81ba71c6db17d04c53836a77"
+      },
+      {
+        "path": "fonts/12-e0.clx",
+        "bytes": 18412,
+        "sha256": "2e7cd4b521f8b8bd9ee1c39a3a5e2af9cef880331120ca72b2e44ef366070e74"
+      },
+      {
+        "path": "fonts/22-00.clx",
+        "bytes": 19296,
+        "sha256": "837163ca83f1baa217d7c675ae0c3e2a39879ebca919627c657e7021bdd117d0"
+      },
+      {
+        "path": "fonts/22-01.clx",
+        "bytes": 31156,
+        "sha256": "57c02001d743190245b3c496fd3ba13973d06cba1c2d503d2cc29646d0b9bf1f"
+      },
+      {
+        "path": "fonts/22-02.clx",
+        "bytes": 22829,
+        "sha256": "d9a74f824a767413b433427fe8f485434a81bea9c793baf901301de7a9a52602"
+      },
+      {
+        "path": "fonts/22-03.clx",
+        "bytes": 16412,
+        "sha256": "66773125dd6f273c9136d73d1a74d3a4ebe83b2e31ec13889f4320c03b1e65eb"
+      },
+      {
+        "path": "fonts/22-04.clx",
+        "bytes": 28848,
+        "sha256": "cb80f1e841f51e1f116e6a599141eb3a62274eb9fcaf44ba5f205537c1537dc9"
+      },
+      {
+        "path": "fonts/22-05.clx",
+        "bytes": 20732,
+        "sha256": "0760b996d61a42f6e566358fddce6c985061f23fb636c9f3046ec825c729704b"
+      },
+      {
+        "path": "fonts/22-20.clx",
+        "bytes": 13037,
+        "sha256": "8090054c3ce0b34238e549b51429d53af05a31bfd562438e174580aba794f9d3"
+      },
+      {
+        "path": "fonts/24-00.clx",
+        "bytes": 31958,
+        "sha256": "cc12555a326367c36984a15fe448264a4c6ecef78182a453c8c5088f957c1b96"
+      },
+      {
+        "path": "fonts/24-01.clx",
+        "bytes": 52260,
+        "sha256": "dc808e83b880c0c7cefc5369703bafcb9c67433cda8c0b0afd8e767f44e3b743"
+      },
+      {
+        "path": "fonts/24-02.clx",
+        "bytes": 17738,
+        "sha256": "cd5a0104941eaa17ea0e73cb7669173d3ea13dcb5961c4f140c401e70445c50d"
+      },
+      {
+        "path": "fonts/24-03.clx",
+        "bytes": 25796,
+        "sha256": "eb9ef6666e5bc471d69f889445f068cce793164d4bf8170eac951367bcc962f3"
+      },
+      {
+        "path": "fonts/24-04.clx",
+        "bytes": 51553,
+        "sha256": "0ac1d782baafbfe3a689eb39a1120e11a61fff43cfafeb5f07ccac1b463af999"
+      },
+      {
+        "path": "fonts/24-05.clx",
+        "bytes": 6304,
+        "sha256": "b4af8decc124b6eb7378f334d8638eeb35bcdeb30af89eea64d558cef7daf95c"
+      },
+      {
+        "path": "fonts/24-1f4.clx",
+        "bytes": 48412,
+        "sha256": "5cfe706260836426f6d3c7ff75bc9b9ec6da7c741f30a0f3af655defb5688a43"
+      },
+      {
+        "path": "fonts/24-1f6.clx",
+        "bytes": 37171,
+        "sha256": "82ff895e73e4e4570cca607b7f44b8107f4167310e297c8924bc57768a1a84b5"
+      },
+      {
+        "path": "fonts/24-1f9.clx",
+        "bytes": 45606,
+        "sha256": "245ded81573af3e71896964f44f72289e4933ba0c34bd2885ebbb23e747f4059"
+      },
+      {
+        "path": "fonts/24-20.clx",
+        "bytes": 7885,
+        "sha256": "6712638cfb814f93ed32ea39b1653d2ee02ddc2fb1ec6f7a65abb96467e25cfe"
+      },
+      {
+        "path": "fonts/24-26.clx",
+        "bytes": 18302,
+        "sha256": "65d0bcde2b37f03a0ffc3aac2400af3c7dcb2aa072f975e8b3c8de99fc0b269f"
+      },
+      {
+        "path": "fonts/24-e0.clx",
+        "bytes": 18875,
+        "sha256": "a6271d1592d880aca844d1a22ef3a2f107633fa5f6ff001d40d1fbffe9de9d73"
+      },
+      {
+        "path": "fonts/30-00.clx",
+        "bytes": 41201,
+        "sha256": "2cf8a3014c0c159fa97d5a051da2cba828f18ca0d62b9d25408c4ef65c84af01"
+      },
+      {
+        "path": "fonts/30-01.clx",
+        "bytes": 67697,
+        "sha256": "641ed82c21308b49188b64abb315d9b683394fd7f03151dbcfa80beb0e4fa6b6"
+      },
+      {
+        "path": "fonts/30-02.clx",
+        "bytes": 22599,
+        "sha256": "25cfd726cfc165c04845e4ecfa61cd62e6420956ac19083dc639f100911e622f"
+      },
+      {
+        "path": "fonts/30-03.clx",
+        "bytes": 33750,
+        "sha256": "702755ccaed442ae083f7529b9a61c629ac448baac85c8041ff7dcda2634045a"
+      },
+      {
+        "path": "fonts/30-04.clx",
+        "bytes": 66828,
+        "sha256": "56c6e060eba74c5173ac16f72660e6b928791fe45c14a4fe3485b8f41b67e17d"
+      },
+      {
+        "path": "fonts/30-05.clx",
+        "bytes": 7698,
+        "sha256": "412d0ca85132b98902829934358aeb0a30d58363438d32d86ca8357c022153ce"
+      },
+      {
+        "path": "fonts/30-20.clx",
+        "bytes": 9190,
+        "sha256": "e28924c0ac83f8a5cbf3bae124e87bd08335af424b0b01cd9d5232dec6129c61"
+      },
+      {
+        "path": "fonts/30-e0.clx",
+        "bytes": 30339,
+        "sha256": "b08e1b690b1b7d0827d95fc9935dcabe96d94c977e10ab1432890d0d8cdef5ac"
+      },
+      {
+        "path": "fonts/42-00.clx",
+        "bytes": 71476,
+        "sha256": "1420a602ae0bc82bd668e1461035f4e05a86ac25da0a0000436b365e30d3de92"
+      },
+      {
+        "path": "fonts/42-01.clx",
+        "bytes": 117394,
+        "sha256": "54cb8256c9f75f7b28ee1c0d074274837d68f1b50d635dc007a9fbbea53f851e"
+      },
+      {
+        "path": "fonts/42-02.clx",
+        "bytes": 38242,
+        "sha256": "b3ad02e2319a98d59ae83c632eda0f02593238bc2edf0ad671c24ce2a103ee88"
+      },
+      {
+        "path": "fonts/42-03.clx",
+        "bytes": 57457,
+        "sha256": "85f4c5cac537442d6eb99bf602d33bde7df183c37261cac6c97dbb34c60d1c41"
+      },
+      {
+        "path": "fonts/42-04.clx",
+        "bytes": 117240,
+        "sha256": "77e62a9bf8d89b246f56fb32797ecf735062a313c849ca37ca3db2ac0f77baba"
+      },
+      {
+        "path": "fonts/42-05.clx",
+        "bytes": 12066,
+        "sha256": "17d2e5be88a6d46cd562dc84b921b534d546f4197627784354e78ac01a0b2029"
+      },
+      {
+        "path": "fonts/42-20.clx",
+        "bytes": 13597,
+        "sha256": "b4eb61e5a9b2ae39ba91d504984e2b42902944b30fdfec503faee793302d147b"
+      },
+      {
+        "path": "fonts/46-00.clx",
+        "bytes": 90468,
+        "sha256": "53377a15d5babb4a55f4bd1514dee7515f569d1986f5c11a3b3d6756dad7aacc"
+      },
+      {
+        "path": "fonts/46-01.clx",
+        "bytes": 151625,
+        "sha256": "1792269107561cbddefefb5f3d45199dd218e18fae346b089d800c931523caf4"
+      },
+      {
+        "path": "fonts/46-02.clx",
+        "bytes": 48047,
+        "sha256": "5255a94ece76acb2f22c6ac9f69b67859a726706906514d1474da959dfb1138f"
+      },
+      {
+        "path": "fonts/46-03.clx",
+        "bytes": 72124,
+        "sha256": "c4db8c5a25c138549d581bb4ba53bffadb96686c4aacd23bf61046b6187a9fe2"
+      },
+      {
+        "path": "fonts/46-04.clx",
+        "bytes": 149190,
+        "sha256": "d0674c8dc74e92c6933199e75942cb01a1079f8591353d8dec0968967846f41b"
+      },
+      {
+        "path": "fonts/46-05.clx",
+        "bytes": 14575,
+        "sha256": "355a234c813a8c86ea153a07ac2baa320b407a5af5e9861fb1f1f95209299bf5"
+      },
+      {
+        "path": "fonts/46-20.clx",
+        "bytes": 80888,
+        "sha256": "7491e6ec52de3ee066cbec635c01357941ce201974a5d6ef4a3a55e61b42dcc4"
+      },
+      {
+        "path": "fonts/black.trn",
+        "bytes": 256,
+        "sha256": "c769682608ffadebede7b21f8ce3a3d9a1b86da454f1830a0215508439124d75"
+      },
+      {
+        "path": "fonts/blue.trn",
+        "bytes": 256,
+        "sha256": "848500de26880e8b255ad545cdf95ebc2427f5f88791af70d13a057c37ae1bbe"
+      },
+      {
+        "path": "fonts/buttonface.trn",
+        "bytes": 256,
+        "sha256": "2dd236c8b1c31321b15306190b8c0beff86fe4e05cd5a93d0150d757a9de85b8"
+      },
+      {
+        "path": "fonts/buttonpushed.trn",
+        "bytes": 256,
+        "sha256": "dfddd5a767e961e232cfbc7c809124b1173aeb7112bc14677ad4d6ce8e1580f2"
+      },
+      {
+        "path": "fonts/gamedialogred.trn",
+        "bytes": 256,
+        "sha256": "5771bae28a1b97f0f5d01e534241b2acae8194a01681f6edc020e876779404a0"
+      },
+      {
+        "path": "fonts/gamedialogwhite.trn",
+        "bytes": 256,
+        "sha256": "cd5321f5acf4f3f2044d07d80f97ef3fe973cd78b2f3a2e660b158e245ed76c4"
+      },
+      {
+        "path": "fonts/gamedialogyellow.trn",
+        "bytes": 256,
+        "sha256": "b80182b68657f62f6c7ab7da281e98f45480bf36d20a9fe8ea694565039ee593"
+      },
+      {
+        "path": "fonts/goldui.trn",
+        "bytes": 256,
+        "sha256": "939fec47ff8926a0ad5f262c92c9a462bd539340fbde116d46acdae36d97c8d7"
+      },
+      {
+        "path": "fonts/golduis.trn",
+        "bytes": 256,
+        "sha256": "4498a68b19c7cf0a1b063b309f28d8aaec7d61a78465be4db0e9d4406f1081cd"
+      },
+      {
+        "path": "fonts/grayui.trn",
+        "bytes": 256,
+        "sha256": "87184330377d2a9dfc2d181e276c565461a7d1796d0cc11f72ec0fa6d436e463"
+      },
+      {
+        "path": "fonts/grayuis.trn",
+        "bytes": 256,
+        "sha256": "c7248910fa70989908528db0491397238417afa961dd2caa034e7669ed1dcfff"
+      },
+      {
+        "path": "fonts/orange.trn",
+        "bytes": 256,
+        "sha256": "45cae4704fa9dd27551c241bb9605e5dedbd5d53fa483ee6e7a0051ec912692d"
+      },
+      {
+        "path": "fonts/red.trn",
+        "bytes": 256,
+        "sha256": "a22400b6230646cd079e8249323ea01005d6ef0aea0875ad0e8d7b501b54e076"
+      },
+      {
+        "path": "fonts/tr/12-00.clx",
+        "bytes": 2615,
+        "sha256": "b2a816f5e1d8b0cbe9d7c1851b540d717fe6f91a0db1b3e5d34e157edb0f31be"
+      },
+      {
+        "path": "fonts/tr/24-00.clx",
+        "bytes": 2676,
+        "sha256": "1574393436e6c968e0419f6125ee1183e50a8257d05df20edee1404910fa9361"
+      },
+      {
+        "path": "fonts/tr/30-00.clx",
+        "bytes": 2686,
+        "sha256": "b3344e2b68786f74db5980c594c111afbe42d09ab9d3f64f4c82ea29643b4249"
+      },
+      {
+        "path": "fonts/tr/42-00.clx",
+        "bytes": 2791,
+        "sha256": "b9b6cc2e84f2371a699931c86a11e83802cb63cfed68b5e5f9f4fc7d28b23314"
+      },
+      {
+        "path": "fonts/tr/46-00.clx",
+        "bytes": 2848,
+        "sha256": "4b39402567f37430306ee4d7de2ca0667388a40ab24286cae3a4707e0668b8b7"
+      },
+      {
+        "path": "fonts/white.trn",
+        "bytes": 256,
+        "sha256": "0f1d11c14c212603913efad0dcc944e38bb751ad3d8a6c145fd61c17041626b8"
+      },
+      {
+        "path": "fonts/whitegold.trn",
+        "bytes": 256,
+        "sha256": "49562f773f976c3a63be50f1826e41feb24048968b26580681151b6fb542dba4"
+      },
+      {
+        "path": "fonts/yellow.trn",
+        "bytes": 256,
+        "sha256": "fad889f83e4b02b8b5eb8a79490a739eef61d360ac595dddd551cce2cf386a59"
+      },
+      {
+        "path": "gendata/cut2w.clx",
+        "bytes": 179896,
+        "sha256": "2816b692f08731cae45c6b5d2a726a81c0af7ae543669504dd2a22097f55f188"
+      },
+      {
+        "path": "gendata/cut3w.clx",
+        "bytes": 333754,
+        "sha256": "e15c6d264d04eba51fd5ca17c1729196f28a1f1f19106d9cc040391b97e678e2"
+      },
+      {
+        "path": "gendata/cut4w.clx",
+        "bytes": 156060,
+        "sha256": "a8df8d6568c4496af82a680d188ae7f4f61a0adf7e8e0cbc4df95472b83e74d0"
+      },
+      {
+        "path": "gendata/cutgatew.clx",
+        "bytes": 155429,
+        "sha256": "24b86e87e59436ccb5c34cd113b62575772978e076154228620f431e46379a99"
+      },
+      {
+        "path": "gendata/cutl1dw.clx",
+        "bytes": 225974,
+        "sha256": "bd4b4de8d31a3c48bef3cb6835e66586a7e8d9add5da2de6a21184e01927a8ca"
+      },
+      {
+        "path": "gendata/cutportlw.clx",
+        "bytes": 230459,
+        "sha256": "c5168f95a976c76b65e08fdcdf5993f4de432d8065e783fc6a20a65eb3b08414"
+      },
+      {
+        "path": "gendata/cutportrw.clx",
+        "bytes": 190141,
+        "sha256": "17a14d454ef9d3570cf2ac0657982f2aca82522ccba0b60d5db879730dc966da"
+      },
+      {
+        "path": "gendata/cutstartw.clx",
+        "bytes": 325305,
+        "sha256": "87d1224f8f4f196c1f1b22eab416f6274833e91dd8298df1d3acdec5a8c88386"
+      },
+      {
+        "path": "gendata/cutttw.clx",
+        "bytes": 154536,
+        "sha256": "34afdb7514ef2e3259f3ce1517e4d360b8aa5cafcb5a2dee4f5420291d3fa2d0"
+      },
+      {
+        "path": "gendata/pause.trn",
+        "bytes": 256,
+        "sha256": "6efd80223719c22995185e565b6e1a2eb4f22d7d41dac594d19e549b107fd421"
+      },
+      {
+        "path": "levels/l1data/sklkngt.dun",
+        "bytes": 31454,
+        "sha256": "2d5c1ed527a62636e08fa81fdd81a66db65cda585806d48a8f6f769cb2e5ac68"
+      },
+      {
+        "path": "levels/l2data/bonechat.dun",
+        "bytes": 19588,
+        "sha256": "5c21f2247c70445ff2379377ac98eca9171b26164aae8af83833981876d1ed51"
+      },
+      {
+        "path": "levels/towndata/automap.amp",
+        "bytes": 312,
+        "sha256": "02aebca5cbc381c800f64c23c99c3fa620850f5734af0c9e0213ebb798eb13a0"
+      },
+      {
+        "path": "levels/towndata/automap.dun",
+        "bytes": 54404,
+        "sha256": "4525f2e543d4f9969ebff1ff91584ffd94e95c5ace690822f5d3534d92cdcd93"
+      },
+      {
+        "path": "lua/devilutionx/events.lua",
+        "bytes": 3015,
+        "sha256": "b770706f67e91fe338c59552428fa5161c51d91a4e25a3cc3ecb658681696a5a"
+      },
+      {
+        "path": "lua/inspect.lua",
+        "bytes": 9072,
+        "sha256": "060a1490d675ee60aafc82e4f2f9ff3ceec76550d4869f43b01afafeda054549"
+      },
+      {
+        "path": "lua/mods/Floating Numbers - Damage/init.lua",
+        "bytes": 2824,
+        "sha256": "fe46a423d33d85fe9f0dbe4eb0d2ad65daa7e6c6d11d987edbda4db431b6425d"
+      },
+      {
+        "path": "lua/mods/Floating Numbers - XP/init.lua",
+        "bytes": 979,
+        "sha256": "b24e83dc68da440ab112bb87345062c2015e79227f2353c53dc6766df1543cf1"
+      },
+      {
+        "path": "lua/mods/adria_refills_mana/init.lua",
+        "bytes": 578,
+        "sha256": "deb0288da9bf40894775d38753c8d8a7328e70f8009d0294d80d6b67c6ecc0ae"
+      },
+      {
+        "path": "lua/mods/clock/init.lua",
+        "bytes": 214,
+        "sha256": "7dffb8eae874384173b56fa871a3b5204deb8de1895ac0d0a084ded22ee28186"
+      },
+      {
+        "path": "lua/repl_prelude.lua",
+        "bytes": 791,
+        "sha256": "4d16ca94fd29bdf593b42cda2fd812c0b6a09f24f92e51ff9f91ad925ecded6b"
+      },
+      {
+        "path": "lua_internal/get_lua_function_signature.lua",
+        "bytes": 1050,
+        "sha256": "5baa6aadf16817e48dbaa9dbb9b22672602ca0ed5bccbab757ed58c6df227dd6"
+      },
+      {
+        "path": "mods/hf.mpq",
+        "bytes": 557908,
+        "sha256": "4f06877b4f6dbfd9c96c9c6b0bb32b22f4a4f8ff25fd0243803b909a3299dad1"
+      },
+      {
+        "path": "mods/hf/data/inv/objcurs2-widths.txt",
+        "bytes": 244,
+        "sha256": "02dbbce821a78c421f33584709afd9a634b7abb73fcf31e48c0c0899e953bd36"
+      },
+      {
+        "path": "mods/hf/lua/mods/hf/init.lua",
+        "bytes": 88,
+        "sha256": "f753830b78835d06945f906afc9b18f54a5e3a113005e02e3f3cb3a5f1a155e8"
+      },
+      {
+        "path": "mods/hf/manifest.ini",
+        "bytes": 267,
+        "sha256": "54cbaf76609f47aa827529e1d0ac75a50cfd475cfcb0c6211495163c988b0d8d"
+      },
+      {
+        "path": "mods/hf/nlevels/cutl5w.clx",
+        "bytes": 224753,
+        "sha256": "43e8d59e3318776793643383770bdf4dc4c748d7bac5a5d3f07747da9b454808"
+      },
+      {
+        "path": "mods/hf/nlevels/cutl6w.clx",
+        "bytes": 278710,
+        "sha256": "ee1c9814fa8f1f3683865f0878df2808f1803bab18f891fb0e70780ad4965cab"
+      },
+      {
+        "path": "mods/hf/nlevels/l5data/cornerstone.dun",
+        "bytes": 854,
+        "sha256": "5b196e21b959464e8ea5c9d4f7f677d964037237acedd5e8944b093707f28473"
+      },
+      {
+        "path": "mods/hf/nlevels/l5data/uberroom.dun",
+        "bytes": 820,
+        "sha256": "62417a4c2e590ff1dfe8393b866e10bf8eccc09c842f727d71168ad11ec1e56d"
+      },
+      {
+        "path": "mods/hf/txtdata/classes/classdat.tsv",
+        "bytes": 179,
+        "sha256": "6bd58c9b79f7443849d11e2d5b2a376219e88466ddadd823cd63c1c2779e2246"
+      },
+      {
+        "path": "mods/hf/txtdata/classes/sorcerer/starting_loadout.tsv",
+        "bytes": 161,
+        "sha256": "074e63a0284f7c7c96aec61e052f99e5735f5ebd591a2b3381887799a86e0400"
+      },
+      {
+        "path": "mods/hf/txtdata/items/item_prefixes.tsv",
+        "bytes": 5791,
+        "sha256": "8ed2f203e453649df2d0ecae94a095db23e0549650124b4f8fb6755807910a14"
+      },
+      {
+        "path": "mods/hf/txtdata/items/item_suffixes.tsv",
+        "bytes": 6552,
+        "sha256": "9a773002e88074ed2fba82f8024817a4c30cac50a86c198e0bf4c368c160d280"
+      },
+      {
+        "path": "mods/hf/txtdata/items/unique_itemdat.tsv",
+        "bytes": 10938,
+        "sha256": "e31ae7a01f7f9634116c67558990614ad7c9e4a6c9f8f521517edbcb9d9e593c"
+      },
+      {
+        "path": "mods/hf/txtdata/missiles/misdat.tsv",
+        "bytes": 7774,
+        "sha256": "e0f27fdaed09a5aa4623fb06a9ec79d5f25c27ac13332fdae2467ec58a5186a8"
+      },
+      {
+        "path": "mods/hf/txtdata/missiles/missile_sprites.tsv",
+        "bytes": 6488,
+        "sha256": "cfabaa9175f81e05d00330e37df5cbc72304126a053ccd45c96ab2f2801e0010"
+      },
+      {
+        "path": "mods/hf/txtdata/monsters/monstdat.tsv",
+        "bytes": 33787,
+        "sha256": "a80f06b572e900c2a0f8415e52a15d7cf3c5e4de7d30a091702938c8f4b05034"
+      },
+      {
+        "path": "mods/hf/txtdata/sound/effects-unused.tsv",
+        "bytes": 47,
+        "sha256": "0db0ca0b92c694e7b8f6b10d3bae3d6e1fbf6315fa929e5387601cf6f812874f"
+      },
+      {
+        "path": "mods/hf/txtdata/sound/effects.tsv",
+        "bytes": 38892,
+        "sha256": "f626c44cd5d3bbff62b1c84f70c39b745e60859f6755062504676ebfb118dff6"
+      },
+      {
+        "path": "mods/hf/txtdata/spells/spelldat.tsv",
+        "bytes": 4339,
+        "sha256": "3a158f1591638ebd0e9647f43a2c8b07577289ac8ab7118dfbb2c450b3778532"
+      },
+      {
+        "path": "mods/hf/txtdata/towners/quest_dialog.tsv",
+        "bytes": 3709,
+        "sha256": "9376c67e7b27766199d3439d7b4062da3cd3bca80a2707d5ad56a8961317b8d6"
+      },
+      {
+        "path": "mods/hf/txtdata/towners/towners.tsv",
+        "bytes": 3589,
+        "sha256": "0bd1cc1eec867f81ccc1a27390e3a1c8e1b266826b36f56f54ffd0bb3f9193f2"
+      },
+      {
+        "path": "mods/hf/ui_art/diablo.pal",
+        "bytes": 768,
+        "sha256": "3b6a6806f100a85a5328e3b9dc196ba3efb29553d67eb9a9de14969ec6e69478"
+      },
+      {
+        "path": "mods/hf/ui_art/hf_titlew.clx",
+        "bytes": 108089,
+        "sha256": "c8626e0034babfc6ca20d7e646e5acc035554d584de0b17cac18bf17aefdfe5a"
+      },
+      {
+        "path": "mods/hf/ui_art/mainmenuw.clx",
+        "bytes": 26082,
+        "sha256": "bbbc8b4dd2ac7f2a76855e087c70639b17aea1282efc7f7a410d8dcbae4f98c9"
+      },
+      {
+        "path": "mods/hf/ui_art/supportw.clx",
+        "bytes": 237573,
+        "sha256": "f12980a91c94931342bd111da00b4adabe8061264cb8ecbdb7fb3a82895c1514"
+      },
+      {
+        "path": "plrgfx/warrior/whu/whufm.trn",
+        "bytes": 256,
+        "sha256": "a2f0c9b53396aa7192a770551bc2b60562fd29b5b71196c0a0c7a80bb013c240"
+      },
+      {
+        "path": "plrgfx/warrior/whu/whulm.trn",
+        "bytes": 256,
+        "sha256": "a2f0c9b53396aa7192a770551bc2b60562fd29b5b71196c0a0c7a80bb013c240"
+      },
+      {
+        "path": "plrgfx/warrior/whu/whuqm.trn",
+        "bytes": 256,
+        "sha256": "a2f0c9b53396aa7192a770551bc2b60562fd29b5b71196c0a0c7a80bb013c240"
+      },
+      {
+        "path": "txtdata/Experience.tsv",
+        "bytes": 567,
+        "sha256": "c10290c4258a50794bcec0daa866c223f21f2b3cad0ff3469935060fb6705be3"
+      },
+      {
+        "path": "txtdata/classes/barbarian/animations.tsv",
+        "bytes": 539,
+        "sha256": "3fe452fca0203a2987efdc72bbeb0522b73776a3841bcecdd8a379a1e113a69e"
+      },
+      {
+        "path": "txtdata/classes/barbarian/attributes.tsv",
+        "bytes": 327,
+        "sha256": "1a1715ce91c005b43b38091ff08fc6b91011233d33e6007b5c9ae6ad92c2aabe"
+      },
+      {
+        "path": "txtdata/classes/barbarian/sounds.tsv",
+        "bytes": 2948,
+        "sha256": "e5ac7990cf200940ca79e289723b1dfcbe4a7e804dd04c8f4aea7ad10737f135"
+      },
+      {
+        "path": "txtdata/classes/barbarian/sprites.tsv",
+        "bytes": 166,
+        "sha256": "6f597ec5720f4e023a41f26c4d42c7d879412f326b598ea28986602ed7a22922"
+      },
+      {
+        "path": "txtdata/classes/barbarian/starting_loadout.tsv",
+        "bytes": 153,
+        "sha256": "93bd1ee77a3f65e6b09d0eb72e750d0b2638e5795ee0527d24760cd08cd1e4d4"
+      },
+      {
+        "path": "txtdata/classes/bard/animations.tsv",
+        "bytes": 545,
+        "sha256": "82642a61b488d5d56d191b00dc80e55c34ec346c4049f870f9bcd4c4c71f63c7"
+      },
+      {
+        "path": "txtdata/classes/bard/attributes.tsv",
+        "bytes": 304,
+        "sha256": "00251b8e606636ec95eaf0bb37d0b0e51bbe6700b59e379fbf736633fb78c1b2"
+      },
+      {
+        "path": "txtdata/classes/bard/sounds.tsv",
+        "bytes": 2741,
+        "sha256": "75afd8eb2d156cb35bab69d407fdf8dc7f46a5549d4ca5c028182416a17f4401"
+      },
+      {
+        "path": "txtdata/classes/bard/sprites.tsv",
+        "bytes": 160,
+        "sha256": "f33f02e41f911e95aa8d34186cb99cf4a4d432f1768ecb24d55db4e0126d9469"
+      },
+      {
+        "path": "txtdata/classes/bard/starting_loadout.tsv",
+        "bytes": 159,
+        "sha256": "709e9b427dca58a8f80f167e227681c3c90f135fddb42e2115b6eb73ad96a4c3"
+      },
+      {
+        "path": "txtdata/classes/classdat.tsv",
+        "bytes": 179,
+        "sha256": "5948137f62df73e8f0d6d33c7fcda079e4c059c4d5b0d2fa1548960324358347"
+      },
+      {
+        "path": "txtdata/classes/monk/animations.tsv",
+        "bytes": 542,
+        "sha256": "34d4336cd6d6f9675d18546916276122f6c7f82ec8d816cb7a797f6608d3886a"
+      },
+      {
+        "path": "txtdata/classes/monk/attributes.tsv",
+        "bytes": 292,
+        "sha256": "191ee35f2b34e994ea177d52214f1741ab3d50a91ddbd156088b35ca87d23804"
+      },
+      {
+        "path": "txtdata/classes/monk/sounds.tsv",
+        "bytes": 2525,
+        "sha256": "8eb470f6cbdf51cc4b0ff3bbd7ea61ab723a8c0b59eac9a3f1e24e07cbde0e12"
+      },
+      {
+        "path": "txtdata/classes/monk/sprites.tsv",
+        "bytes": 164,
+        "sha256": "a4033aadb03cbb9aa16929f9f2bd22ee438406c818b9120ccfbc733abd82cacc"
+      },
+      {
+        "path": "txtdata/classes/monk/starting_loadout.tsv",
+        "bytes": 152,
+        "sha256": "e3ec4013948fe9d7518601881c1db8d73717ae3e89d01b42f5334582bab7d8e0"
+      },
+      {
+        "path": "txtdata/classes/rogue/animations.tsv",
+        "bytes": 544,
+        "sha256": "9c19ed4326616e2c58c52d0f529dd0b038604fdd6def8f1ea66b2b4f1c47ff6e"
+      },
+      {
+        "path": "txtdata/classes/rogue/attributes.tsv",
+        "bytes": 300,
+        "sha256": "ec7bba6ea437a70ff90cb16fe809ce8e587cb904e10424d4a62c8743edea44f5"
+      },
+      {
+        "path": "txtdata/classes/rogue/sounds.tsv",
+        "bytes": 2741,
+        "sha256": "75afd8eb2d156cb35bab69d407fdf8dc7f46a5549d4ca5c028182416a17f4401"
+      },
+      {
+        "path": "txtdata/classes/rogue/sprites.tsv",
+        "bytes": 161,
+        "sha256": "9c26a91f7eca5b5dcf039b39978c94e5c6bee1b213a59d2925762c229602517e"
+      },
+      {
+        "path": "txtdata/classes/rogue/starting_loadout.tsv",
+        "bytes": 151,
+        "sha256": "3de35f59211af6f4bb5b3da4ded85612468ed32dc7a9a7c06799138faf00266d"
+      },
+      {
+        "path": "txtdata/classes/sorcerer/animations.tsv",
+        "bytes": 543,
+        "sha256": "5141e442097635fee3e1201b878c07e1b4f7f01e85b46f6fdeaf6b25e182d33b"
+      },
+      {
+        "path": "txtdata/classes/sorcerer/attributes.tsv",
+        "bytes": 285,
+        "sha256": "05902013111470c0c7057d835009ff76afad2e7fb4407a197d6ba8ecf9ca9b49"
+      },
+      {
+        "path": "txtdata/classes/sorcerer/sounds.tsv",
+        "bytes": 3050,
+        "sha256": "a07b4249b59d99a457c876e68d9d69f56bbe55e117a2c9b772008c7578c3822b"
+      },
+      {
+        "path": "txtdata/classes/sorcerer/sprites.tsv",
+        "bytes": 170,
+        "sha256": "1daf31adb4b2348d0513148f9b2cfbd9a92dbb9ef3fba2c7eb9d98b09a1df86a"
+      },
+      {
+        "path": "txtdata/classes/sorcerer/starting_loadout.tsv",
+        "bytes": 168,
+        "sha256": "b084ff17e3a15b6f7d20e7549c04e9acbed6e30d106ab5bfe5fd3e4f5fd86125"
+      },
+      {
+        "path": "txtdata/classes/warrior/animations.tsv",
+        "bytes": 540,
+        "sha256": "99e026c45b78d2bd45c5042592e4e78dd762efc9f8629571d25bcb0fbf545c7b"
+      },
+      {
+        "path": "txtdata/classes/warrior/attributes.tsv",
+        "bytes": 301,
+        "sha256": "31bbcaa49f184e2f757e39fdc1a6f341cda44dab352b0a854004077bb9da29e9"
+      },
+      {
+        "path": "txtdata/classes/warrior/sounds.tsv",
+        "bytes": 2951,
+        "sha256": "9a4a361e454141003f52f6691fa3bd73919955fcc27bbb321a023c6f6c267221"
+      },
+      {
+        "path": "txtdata/classes/warrior/sprites.tsv",
+        "bytes": 164,
+        "sha256": "7307cf3bcff5d0713a43bd521f2bcc2a11441b5f1b34dd79429e522ac694f592"
+      },
+      {
+        "path": "txtdata/classes/warrior/starting_loadout.tsv",
+        "bytes": 161,
+        "sha256": "f744ef0b5118c12917d7d129790139154ac13784626b430d647e96e1950bc931"
+      },
+      {
+        "path": "txtdata/items/item_prefixes.tsv",
+        "bytes": 5545,
+        "sha256": "ac9ebf09b44181309b35437dd798fa8a9c0888b10de912ce623e3936a3f4ee79"
+      },
+      {
+        "path": "txtdata/items/item_suffixes.tsv",
+        "bytes": 6263,
+        "sha256": "ec7e2a79be2ab5b93c1cdb1554f29bf876aaf8b4e9038c057b0bb3a617abaa21"
+      },
+      {
+        "path": "txtdata/items/itemdat.tsv",
+        "bytes": 17994,
+        "sha256": "56daa0e75806f2a9cb83eac4ea9549e432d0da30f2b9e31d6a5d0a73a4567e38"
+      },
+      {
+        "path": "txtdata/items/unique_itemdat.tsv",
+        "bytes": 9020,
+        "sha256": "844cf765e94db032353c1fc6b14a45c246e39b27f2f13b5a33d656b4578ac380"
+      },
+      {
+        "path": "txtdata/missiles/misdat.tsv",
+        "bytes": 4821,
+        "sha256": "31cf618be54dd365c69cc78b368d4501a57fff627cbea49e758f9c377fe29710"
+      },
+      {
+        "path": "txtdata/missiles/missile_sprites.tsv",
+        "bytes": 4958,
+        "sha256": "6479d39ea80a4e398ece99ac10c58eb9f0f425e038be0d790cd719675bfb2f51"
+      },
+      {
+        "path": "txtdata/monsters/monstdat.tsv",
+        "bytes": 27239,
+        "sha256": "3ffc0d9aad41164ec4bfff385ae6ac3e24ab53759fa3c025747dc5580935f371"
+      },
+      {
+        "path": "txtdata/monsters/unique_monstdat.tsv",
+        "bytes": 10676,
+        "sha256": "988cedfd23ab4076c60ced2951c814da762c3e9854b51502394bbd32f7e4f641"
+      },
+      {
+        "path": "txtdata/objects/objdat.tsv",
+        "bytes": 8212,
+        "sha256": "8a93166d81ca3b3a76ef8d2dbaed78e004f871e95573bcc57e61a1d2b9ae9272"
+      },
+      {
+        "path": "txtdata/quests/questdat.tsv",
+        "bytes": 1472,
+        "sha256": "29ad7832efb373241253eadfca0eab81a91af803cdb23340b59c025c1b125017"
+      },
+      {
+        "path": "txtdata/sound/effects.tsv",
+        "bytes": 34753,
+        "sha256": "54e9c1dbc66a6c3a68ef90221ebf38bf824e9db854f3ff83f1a8c2c3363f27cc"
+      },
+      {
+        "path": "txtdata/spells/spelldat.tsv",
+        "bytes": 3065,
+        "sha256": "e83b9fd27038a12d9a9fadcd472b5610c9a55c0f11e1dd25667eac608e840dfa"
+      },
+      {
+        "path": "txtdata/text/textdat.tsv",
+        "bytes": 84589,
+        "sha256": "864ae3a07774f3454729df9fd1a72decba94c3a2b8188157c148482c4677064b"
+      },
+      {
+        "path": "txtdata/towners/quest_dialog.tsv",
+        "bytes": 2300,
+        "sha256": "e16e33aaef4401c0e53cef4e025ba3cafc4ca1593e9273bf5027e842a5fc4020"
+      },
+      {
+        "path": "txtdata/towners/towners.tsv",
+        "bytes": 3378,
+        "sha256": "398495e071b989b666249e14d9cb6a6688c3bac43f7df68110b33606aa42c9cd"
+      },
+      {
+        "path": "ui_art/button.png",
+        "bytes": 156262,
+        "sha256": "eba6f4a6952ee38e8e59b01e41af8d9f1fd61db969c3490d98f11ce0d4d1cd7f"
+      },
+      {
+        "path": "ui_art/creditsw.clx",
+        "bytes": 172340,
+        "sha256": "dd024bdc790497fd4b9c3fe1e5ae69f2ae5942d096cb2ad1aa467cc887571d1f"
+      },
+      {
+        "path": "ui_art/diablo.pal",
+        "bytes": 768,
+        "sha256": "8f28d972ce6b5a36d8ef88b78441f996f7c10c3b73bd548b9277500b97a79400"
+      },
+      {
+        "path": "ui_art/directions.png",
+        "bytes": 50803,
+        "sha256": "452876db2b7a172d6f0a1ee673301c2b88ead081c3754c33311de773de599839"
+      },
+      {
+        "path": "ui_art/directions2.png",
+        "bytes": 17812,
+        "sha256": "8ea799b46e62830c63c0f79c114108acd12d7ce20a580f2b8ba50db1c0541dca"
+      },
+      {
+        "path": "ui_art/dvl_but_sml.clx",
+        "bytes": 4131,
+        "sha256": "e53f6f8def20e616d178b57cfc9952d227339af7f1bcf56ecd1d04df6cd6bf8c"
+      },
+      {
+        "path": "ui_art/dvl_lrpopup.clx",
+        "bytes": 96214,
+        "sha256": "da30186d61f08d450ebe63bbf8bad6ecd683bbb1e90551f9bedc5ed5b2bd1e55"
+      },
+      {
+        "path": "ui_art/mainmenuw.clx",
+        "bytes": 20178,
+        "sha256": "ca2262b6c0fb3092363e0567a2601cf27f5abbf81b2376e9fa17b906b33e06ad"
+      },
+      {
+        "path": "ui_art/menu-levelup.png",
+        "bytes": 18062,
+        "sha256": "efcbc48319993bbcb1dc1265b8ff95bbbd8b2b7a3f145816496f6d288c49496f"
+      },
+      {
+        "path": "ui_art/menu.png",
+        "bytes": 12001,
+        "sha256": "5934e1d8c73d97695546712427c25188a5ba7652941ea900d44f8081ee32cec4"
+      }
+    ]
+  }
+}

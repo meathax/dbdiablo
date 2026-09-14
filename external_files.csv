@@ -1,1 +1,6 @@
-Path in MiSTer, URL, Size in bytes (optional but recommended), MD5 Hash (optional but recommended), Filter Terms (optional)
+Path,URL,Size in bytes (optional but recommended),MD5 Hash (optional but recommended),Filter Terms (optional),Overwrite (optional),Comments (optional)
+games/Diablo/DIABDAT.MPQ,https://archive.org/download/diablohellfire/Diablo.iso/DIABDAT.MPQ,517501282,011bc6518e6166206231080a4440b373,diablo,overwrite:true,Diablo retail data
+games/Diablo/hellfire.mpq,https://archive.org/download/diablohellfire/Hellfire.iso/hellfire.mpq,65502336,c996bd970df13ea7aa5e2417f8e78b9f,diablo,overwrite:true,Hellfire expansion data
+games/Diablo/hfmonk.mpq,https://archive.org/download/diablohellfire/Hellfire.iso/hfmonk.mpq,37658368,5a6b8f1ef6d505d469c31aef6e48e89d,diablo,overwrite:true,Hellfire Monk data
+games/Diablo/hfmusic.mpq,https://archive.org/download/diablohellfire/Hellfire.iso/hfmusic.mpq,34379360,5f79b271b4a291fc8968df7e8aa80d52,diablo,overwrite:true,Hellfire music
+games/Diablo/hfvoice.mpq,https://archive.org/download/diablohellfire/Hellfire.iso/hfvoice.mpq,37743520,6ae6ce3e89ece92c1e3e912a91d0b186,diablo,overwrite:true,Hellfire voices and cinematics

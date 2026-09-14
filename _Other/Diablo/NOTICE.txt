@@ -1,0 +1,16 @@
+Diablo MiSTer runtime package
+
+This package contains the project runtime, FPGA core, transport ABI, launcher,
+and redistributable engine assets. It intentionally excludes licensed Diablo and
+Hellfire data files, save games, private captures, credentials, and build trees.
+
+Supply legally obtained game data on the target according to SETUP.md. The
+package and its manifests are content-addressed; do not edit files in place.
+
+The FPGA license text is included as LICENSE.fpga. The engine's Sustainable Use
+License is included as LICENSE.engine.md, preserved from the locked DevilutionX
+revision 0ff3186238e7c2786c4d52c21ecce1cb83723ed9. These are separate components;
+the engine is not represented as GPL-licensed. Per-dependency notices and the
+distribution-composition review remain release requirements.
+Located dependency and compiler-runtime notices are preserved under licenses/;
+see licenses/INDEX.md for their provenance and remaining coverage limits.
