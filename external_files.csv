@@ -4,3 +4,9 @@ games/Diablo/hellfire.mpq,https://archive.org/download/diablohellfire/Hellfire.i
 games/Diablo/hfmonk.mpq,https://archive.org/download/diablohellfire/Hellfire.iso/hfmonk.mpq,37658368,5a6b8f1ef6d505d469c31aef6e48e89d,diablo,overwrite:true,Hellfire Monk data
 games/Diablo/hfmusic.mpq,https://archive.org/download/diablohellfire/Hellfire.iso/hfmusic.mpq,34379360,5f79b271b4a291fc8968df7e8aa80d52,diablo,overwrite:true,Hellfire music
 games/Diablo/hfvoice.mpq,https://archive.org/download/diablohellfire/Hellfire.iso/hfvoice.mpq,37743520,6ae6ce3e89ece92c1e3e912a91d0b186,diablo,overwrite:true,Hellfire voices and cinematics
+games/Diablo/devilutionx.mpq,https://raw.githubusercontent.com/meathax/dbdiablo/main/games/Diablo/devilutionx.mpq,5562231,7cd000e3295f65e0ae5c69fb4617d336,diablo,overwrite:true,Core translated UI and text assets for DevilutionX 1.5.5 or newer
+games/Diablo/es.mpq,https://raw.githubusercontent.com/meathax/dbdiablo/main/games/Diablo/es.mpq,30218854,f4c4e617a551fe2b0602875d67b16e80,diablo,overwrite:true,Spanish language assets
+games/Diablo/fonts.mpq,https://raw.githubusercontent.com/meathax/dbdiablo/main/games/Diablo/fonts.mpq,58595557,2a28ace91d47bb675835325def8f2cd1,diablo,overwrite:true,Additional fonts for Chinese Japanese and Korean
+games/Diablo/pl.mpq,https://raw.githubusercontent.com/meathax/dbdiablo/main/games/Diablo/pl.mpq,40337985,3a2b1ff7587968da3c75d4b9df049b95,diablo,overwrite:true,Polish voice and language assets
+games/Diablo/ru.mpq,https://raw.githubusercontent.com/meathax/dbdiablo/main/games/Diablo/ru.mpq,34710143,47ab71ee2c8c704b7ae417d940761239,diablo,overwrite:true,Russian voice and language assets
+games/Diablo/spawn.mpq,https://raw.githubusercontent.com/meathax/dbdiablo/main/games/Diablo/spawn.mpq,25448219,9d9a48413a8e38c0e0ee41d08c9451dd,diablo,overwrite:true,Diablo shareware game archive
