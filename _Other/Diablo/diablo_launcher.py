@@ -543,8 +543,12 @@ def _linux_runtime_evidence(physical_base: int) -> dict[str, Any]:
 def _engine_args(args: argparse.Namespace, package: Path, save_root: Path, config_root: Path, log_path: Path) -> list[str]:
     command = [str(package / "devilutionx"), "--" + args.campaign,
                "--data-dir", str(args.data_root), "--save-dir", str(save_root),
-               "--config-dir", str(config_root), "--lang", args.lang,
-               "--verbose"]
+               "--config-dir", str(config_root)]
+    # Let DevilutionX load the language stored by its in-game options menu.
+    # --lang remains an explicit one-run override for diagnostics or scripts.
+    if args.lang:
+        command.extend(("--lang", args.lang))
+    command.append("--verbose")
     command.extend(args.engine_arg)
     return command
 
@@ -723,7 +727,7 @@ def main(argv: list[str] | None = None) -> int:
     parser.add_argument("--loader-timeout", type=float, default=45.0)
     parser.add_argument("--duration", type=float, default=0.0,
                         help="seconds to run before clean termination; zero waits for the game")
-    parser.add_argument("--lang", default="en")
+    parser.add_argument("--lang", help="temporarily override the saved DevilutionX language")
     parser.add_argument("--engine-arg", action="append", default=[],
                         help="additional argument passed to devilutionx; repeat for multiple arguments")
     args = parser.parse_args(argv)
